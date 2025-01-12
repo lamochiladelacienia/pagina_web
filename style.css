@@ -1,16 +1,18 @@
+/* Importar la fuente Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 /* Estilo del header */
 header {
-    background-color: #005f73;
+    background-color: #000000;
     color: white;
     text-align: center;
     padding: 1rem 0;
@@ -30,12 +32,12 @@ section {
     margin-bottom: 2rem;
     padding: 1rem;
     background-color: white;
+    border: 1px solid #000000;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    color: #005f73;
+    color: #000000;
 }
 
 ul {
