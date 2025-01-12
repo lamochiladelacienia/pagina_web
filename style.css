@@ -1,24 +1,69 @@
+/* Reset básico */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
+/* Estilo del header */
 header {
-    background-color: #333;
+    background-color: #005f73;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
+header .logo img {
+    max-width: 120px;
+    margin-bottom: 0.5rem;
+}
+
+/* Secciones */
 main {
     padding: 2rem;
 }
 
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #005f73;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+}
+
+/* Colaboradores */
+.fotos-colaboradores {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.fotos-colaboradores img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #005f73;
+}
+
+/* Footer */
 footer {
-    background-color: #333;
+    background-color: #005f73;
     color: white;
     text-align: center;
     padding: 1rem;
+    position: relative;
 }
+
